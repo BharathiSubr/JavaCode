@@ -1,0 +1,9 @@
+git config --global user.name "BharathiSubr"
+git config --global user.email bharahti02.subra@gmail.com
+git clone https://github.com/BharathiSubr/JavaCode.git
+ls
+cd JavaCode
+git add test.txt
+git status
+git commit -m "first commit" test.txt
+git push -u origin master
